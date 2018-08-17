@@ -17,12 +17,12 @@ body {
 
 .places {
     float: left;
-    height: 200px;
+    height: 230px;
     margin-bottom: 10px;
 }
 
 .placesImg {
-    height: 150px;
+    height: 180px;
     border: 1px solid #e7acad;
     width: 100%;
     cursor: pointer;

@@ -9,9 +9,9 @@ function showSites(place) {
 function showModal(resultsD) {
   $('#exampleModal').modal('show');
   let open;
-  let urlPhoto = resultsD.photos[0].getUrl({ maxHeight: 300 });
-  let urlPhoto2 = resultsD.photos[1].getUrl({ maxHeight: 300 });
-  let urlPhoto3 = resultsD.photos[2].getUrl({ maxHeight: 300 });
+  let urlPhoto = resultsD.photos[0].getUrl({ maxHeight: 200 });
+  let urlPhoto2 = resultsD.photos[1].getUrl({ maxHeight: 200 });
+  let urlPhoto3 = resultsD.photos[2].getUrl({ maxHeight: 200 });
 
   // condicional open para que no salga false o true
   if (resultsD.opening_hours.open_now == false) {
