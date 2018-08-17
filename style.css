@@ -1,57 +1,72 @@
-body{
-     font-family: 'Exo',
-     sans-serif;
-}
-.body-map{
-    background-color:#f7f2ec;
-}
-#map{
-  width:650px;
-  height:650px
+body {
+    font-family: 'Exo', sans-serif;
 }
 
-#photo{
+.body-map {
+    background-color: #f7f2ec;
+}
+
+#map {
+    width: 650px;
+    height: 650px
+}
+
+#photo {
     margin-bottom: 1rem
 }
-.places{
+
+.places {
     float: left;
     height: 200px;
     margin-bottom: 10px;
 }
-.placesImg{
+
+.placesImg {
     height: 150px;
-     width: 100%;
-     cursor: pointer;
+    border: 1px solid #e7acad;
+    width: 100%;
+    cursor: pointer;
+    padding: 5px;
+    background: #fff;
 }
+
 .title {
-   
-    color:#e93b3d;
+    color: #e93b3d;
 }
+
 .center {
     text-align: center;
 }
-header, section{
+
+header,
+section {
     margin-top: 30px;
 }
-.icons{
+
+.icons {
     color: #e93b3d
 }
+
 .title-index {
     font-family: 'Exo', sans-serif;
     color: #e93b3d;
     font-size: 38px
 }
-.options-label{
+
+.options-label {
     background: #e93b3d;
     color: #fff;
 }
+
 .figure-caption {
     font-size: 100%;
     color: #1d1c1b;
 }
-.margin-top{
+
+.margin-top {
     margin-top: 10px;
 }
-.left{
+
+.left {
     float: left;
 }
