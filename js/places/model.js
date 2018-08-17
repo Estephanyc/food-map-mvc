@@ -15,7 +15,7 @@ function getPlaces(request) {
   return new Promise((resolve, reject) => {  
     service = new google.maps.places.PlacesService(map);
     service.nearbySearch(request, function(results, status) {
-      if (status == google.maps.places.PlacesServiceStatus.OK) {
+      if (status === google.maps.places.PlacesServiceStatus.OK) {
         resolve(results);
       }
     });
@@ -26,7 +26,7 @@ function getPlaceDetails(id) {
     service.getDetails({
       placeId: `${id}`,
     }, function(results, statusD) {
-      if (statusD == google.maps.places.PlacesServiceStatus.OK) {
+      if (statusD === google.maps.places.PlacesServiceStatus.OK) {
         resolve(results);
       }
     });

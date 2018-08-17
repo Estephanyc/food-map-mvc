@@ -14,9 +14,9 @@ function showModal(resultsD) {
   let urlPhoto3 = resultsD.photos[2].getUrl({ maxHeight: 200 });
 
   // condicional open para que no salga false o true
-  if (resultsD.opening_hours.open_now == false) {
+  if (resultsD.opening_hours.open_now === false) {
     open = 'cerrado';
-  } else if (resultsD.opening_hours.open_now == true) {
+  } else if (resultsD.opening_hours.open_now === true) {
     open = 'Abierto';
   } else {
     open = 'no registra';
