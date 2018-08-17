@@ -17,7 +17,9 @@ function inicializate(pos) {
     type: ['restaurant'],
     keyword: defaultSearch,
   };
+  console.log(request)
   getPlaces(request).then((places)=>{
+    console.log(places)
     places.forEach(place => {
       createMarker(place);
       showSites(place);

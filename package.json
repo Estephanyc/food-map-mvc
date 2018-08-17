@@ -1,0 +1,25 @@
+{
+  "name": "scl-2018-01-foodmap-mvc",
+  "version": "1.0.0",
+  "description": "Web que te permite ver los restaurantes mas cercanos a tu ubicación, filtrar por categorías, seleccionar un rango de distancia y obtener información como dirección, fotos, rating y demás de un lugar seleccionado",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Estephanyc/food-map-mvc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Estephanyc/food-map-mvc/issues"
+  },
+  "homepage": "https://github.com/Estephanyc/food-map-mvc#readme",
+  "dependencies": {
+    "mocha": "^5.2.0"
+  }
+}

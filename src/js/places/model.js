@@ -2,7 +2,7 @@ let service;
 function createMarker(placeMarker) {
   let infowindow = new google.maps.InfoWindow();
   let marker = new google.maps.Marker({
-    icon: 'img/restaurant.png',
+    icon: 'assets/img/restaurant.png',
     map: map,
     position: placeMarker.geometry.location
   });
@@ -11,7 +11,7 @@ function createMarker(placeMarker) {
     infowindow.open(map, this);
   });
 }
-function getPlaces(request) {
+window.getPlaces = (request)=> {
   return new Promise((resolve, reject) => {  
     service = new google.maps.places.PlacesService(map);
     service.nearbySearch(request, function(results, status) {

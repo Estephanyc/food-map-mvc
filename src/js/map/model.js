@@ -15,7 +15,7 @@ function generateMap(pos) {
 function currentPosition(pos) {
   let punto = new google.maps.LatLng(pos.coords.latitude, pos.coords.longitude);
   let marker = new google.maps.Marker({
-    icon: 'img/placeholder.png',
+    icon: 'assets/img/placeholder.png',
     map: map,
     position: punto,
     title: 'Mi ubicacion'
